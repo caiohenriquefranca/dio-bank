@@ -38,9 +38,22 @@ Este projeto é uma implementação de um sistema de contas bancárias utilizand
 
 ---
 
-## 📋 Pré-requisitos
+## 📜 Exemplo de Saída
 
-Certifique-se de ter o Node.js instalado na sua máquina. Instale as dependências do projeto com o comando:
 
 ```bash
-npm install
+---- Conta Pessoal ----
+Você depositou R$50.00. Saldo atual: R$60.00.
+Você sacou R$30.00. Saldo atual: R$30.00.
+Saldo atual: R$30.00.
+
+---- Conta Empresarial ----
+Você depositou R$200.00. Saldo atual: R$210.00.
+Você pegou um empréstimo de R$500.00. Saldo atual: R$710.00.
+Saldo atual: R$710.00.
+
+---- Conta Especial ----
+Você depositou R$100.00 com bônus de R$10. Saldo atual: R$120.00.
+Você sacou R$50.00. Saldo atual: R$70.00.
+Saldo atual: R$70.00.
+
